@@ -34,7 +34,7 @@ public class TrataClienteController extends Thread {
 
         try {
 
-            comando = (String) in.readObject();
+            comando = (String)  in.readObject();
             System.out.println(comando);
             while (!comando.equalsIgnoreCase("fim")) {
 
